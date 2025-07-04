@@ -1,0 +1,22 @@
+{
+  "name": "llamaindex",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@llamaindex/openai": "^0.4.7",
+    "@llamaindex/workflow": "^1.1.13",
+    "llamaindex": "^0.11.12",
+    "zod": "^3.25.71"
+  }
+}
